@@ -13,6 +13,7 @@ body {
 .controls-panel {
     background: #f3f6fa;
     padding: 10px;
+    overflow: hidden;
 }
 
 .Select-control {

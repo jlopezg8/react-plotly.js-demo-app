@@ -102,11 +102,11 @@ export default class ReactJSONEditor extends Component {
     }
 
     componentDidUpdate(prevProps, prevState) {
-        if (!isEqual(prevProps.plotUrl, this.props.plotUrl)) {
+        //if (!isEqual(prevProps.plotUrl, this.props.plotUrl)) {
             // New plot; load new plot JSON
             this.editor.set(this.json);
             this.editor.expandAll();
-        }
+        //}
     }
 
     componentWillUnmount() {
